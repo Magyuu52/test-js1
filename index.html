@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+ <meta charset="utf-8">
+ <link rel="stylesheet" href="style.css">
+ <title>ストップウォッチ</title>
+ </head>
+ 
+ <body>
+     <h3>ストップウォッチ</h3>
+     
+     <p class="numbers" id="numbers">
+        0:0:0:0
+     </p>
+     <div class="buttons">
+         <input type="button" value="スタート" id="start" onclick="start()"/>
+         <input type="button" value="ストップ" id="stop" onclick="stop()" disabled/>
+         <input type="button" value="リセット" id="reset" onclick="reset()" disabled/>
+     </div>
+     
+     <script src="main.js"></script>
+ </body>
+ </html>

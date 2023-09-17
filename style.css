@@ -1,0 +1,11 @@
+
+.numbers  {
+    font-size: 30px;
+    letter-spacing: 10px;
+    margin-left: 20px;
+}
+
+input {
+    padding: 10px;
+    font-weight: bold;
+}
